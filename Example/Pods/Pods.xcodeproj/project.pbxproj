@@ -8,8 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		31BA5AAA52551A7620B5F43AEA18FA7D /* NYCLib-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F5FE3D522EA5E861CED0881F7756A831 /* NYCLib-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		53502AF4261D7E720032D621 /* NYCHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 53502AF2261D7E720032D621 /* NYCHelper.h */; };
-		53502AF5261D7E720032D621 /* NYCHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 53502AF3261D7E720032D621 /* NYCHelper.m */; };
+		53502B04261D7FDC0032D621 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 53502AFF261D7FDC0032D621 /* .gitkeep */; };
+		53502B05261D7FDC0032D621 /* NYCHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 53502B01261D7FDC0032D621 /* NYCHelper.h */; };
+		53502B06261D7FDC0032D621 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 53502B02261D7FDC0032D621 /* .gitkeep */; };
+		53502B07261D7FDC0032D621 /* NYCHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 53502B03261D7FDC0032D621 /* NYCHelper.m */; };
 		5692FABB9927006BD3922A80E2C41A23 /* NYCLib-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E714EC7BB428CC5212B1927D05FCCA8C /* NYCLib-dummy.m */; };
 		68EBAB6055C947D89C42604F3C0F7118 /* Pods-NYCLib_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 979B8985ABD846E7CDC06F02214B20B1 /* Pods-NYCLib_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		765B655A6CDEF3D4867F4E0C08090B8E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
@@ -45,8 +47,10 @@
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		3C1D92979AB6BFBC115F035954BB5496 /* Pods-NYCLib_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NYCLib_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		4B9A3AEA9B2CC39895AF0C542031BA6D /* Pods-NYCLib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NYCLib_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		53502AF2261D7E720032D621 /* NYCHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NYCHelper.h; path = NYCLib/Classes/NYCHelper.h; sourceTree = "<group>"; };
-		53502AF3261D7E720032D621 /* NYCHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NYCHelper.m; path = NYCLib/Classes/NYCHelper.m; sourceTree = "<group>"; };
+		53502AFF261D7FDC0032D621 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		53502B01261D7FDC0032D621 /* NYCHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NYCHelper.h; sourceTree = "<group>"; };
+		53502B02261D7FDC0032D621 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		53502B03261D7FDC0032D621 /* NYCHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NYCHelper.m; sourceTree = "<group>"; };
 		64AD766F276E2E43B6CAB3F10FCF5AE4 /* Pods-NYCLib_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NYCLib_Tests-Info.plist"; sourceTree = "<group>"; };
 		74CA2AD68C887B32C0DF4151492267D6 /* Pods-NYCLib_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NYCLib_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		872C87CA6CDD140D70EB2AD7C70FCD8C /* NYCLib-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "NYCLib-Info.plist"; sourceTree = "<group>"; };
@@ -145,11 +149,37 @@
 			name = Pod;
 			sourceTree = "<group>";
 		};
+		53502AFD261D7FDC0032D621 /* NYCLib */ = {
+			isa = PBXGroup;
+			children = (
+				53502AFE261D7FDC0032D621 /* Assets */,
+				53502B00261D7FDC0032D621 /* Classes */,
+			);
+			path = NYCLib;
+			sourceTree = "<group>";
+		};
+		53502AFE261D7FDC0032D621 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				53502AFF261D7FDC0032D621 /* .gitkeep */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		53502B00261D7FDC0032D621 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				53502B01261D7FDC0032D621 /* NYCHelper.h */,
+				53502B02261D7FDC0032D621 /* .gitkeep */,
+				53502B03261D7FDC0032D621 /* NYCHelper.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		5D0F441C4D51C8E1015762E5C9250311 /* NYCLib */ = {
 			isa = PBXGroup;
 			children = (
-				53502AF2261D7E720032D621 /* NYCHelper.h */,
-				53502AF3261D7E720032D621 /* NYCHelper.m */,
+				53502AFD261D7FDC0032D621 /* NYCLib */,
 				47658334477662BADFD8AA35F6C56618 /* Pod */,
 				9BD9C549CAE0A9A770E8A160684B1556 /* Support Files */,
 			);
@@ -242,7 +272,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				31BA5AAA52551A7620B5F43AEA18FA7D /* NYCLib-umbrella.h in Headers */,
-				53502AF4261D7E720032D621 /* NYCHelper.h in Headers */,
+				53502B05261D7FDC0032D621 /* NYCHelper.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,6 +377,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				53502B04261D7FDC0032D621 /* .gitkeep in Resources */,
+				53502B06261D7FDC0032D621 /* .gitkeep in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -387,7 +419,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				53502AF5261D7E720032D621 /* NYCHelper.m in Sources */,
+				53502B07261D7FDC0032D621 /* NYCHelper.m in Sources */,
 				5692FABB9927006BD3922A80E2C41A23 /* NYCLib-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
