@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'NYCLib_Example' do
+  pod 'NYCLib', :path => '../'
+
+  target 'NYCLib_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
