@@ -10,4 +10,10 @@
 
 @implementation NYCHelper
 
+- (int)date {
+    int a = 0;
+    int b = a + b;
+    return b;
+}
+
 @end
