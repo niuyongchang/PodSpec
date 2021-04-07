@@ -8,15 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		31BA5AAA52551A7620B5F43AEA18FA7D /* NYCLib-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F5FE3D522EA5E861CED0881F7756A831 /* NYCLib-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		53502AF4261D7E720032D621 /* NYCHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 53502AF2261D7E720032D621 /* NYCHelper.h */; };
+		53502AF5261D7E720032D621 /* NYCHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 53502AF3261D7E720032D621 /* NYCHelper.m */; };
 		5692FABB9927006BD3922A80E2C41A23 /* NYCLib-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E714EC7BB428CC5212B1927D05FCCA8C /* NYCLib-dummy.m */; };
 		68EBAB6055C947D89C42604F3C0F7118 /* Pods-NYCLib_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 979B8985ABD846E7CDC06F02214B20B1 /* Pods-NYCLib_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		765B655A6CDEF3D4867F4E0C08090B8E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		813099EEFDB38F3993E0C0E9C6AA25C8 /* NYCHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = E2E5599588E08DF346E3EC412BA6B99B /* NYCHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B21207CFD0CBC8339007CB5E88017AA3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		B6A17473778AA1EDB6EFE134CB9A3541 /* Pods-NYCLib_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D0BC28CBA3B5E7674B6829CF58C3ECA0 /* Pods-NYCLib_Example-dummy.m */; };
 		CAC813630C8046BCCF3CC43CCF107122 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		CF22E3F9D2DF0401BADE0BE53494E36E /* Pods-NYCLib_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B27C14499FD5DBB253D0AFDF6E8B0E31 /* Pods-NYCLib_Tests-dummy.m */; };
-		D5A610F0EA7D3AB14D35725DADC9FEBB /* NYCHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 4533619E74ABF4670DD14DDE452CFB5E /* NYCHelper.m */; };
 		D8DFD04F9212B5AA44CFB93343D077C0 /* Pods-NYCLib_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CD7002FF19A67B3C38A7A487F6139BBD /* Pods-NYCLib_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -41,11 +41,12 @@
 		0C99A089EACF736BC22C698B9A8DE46B /* NYCLib.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = NYCLib.modulemap; sourceTree = "<group>"; };
 		14DB1C62CF90BE9025EA1C59707218A5 /* NYCLib-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NYCLib-prefix.pch"; sourceTree = "<group>"; };
 		1C6BB96232197A4F67E742071AADECFB /* Pods-NYCLib_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NYCLib_Example.modulemap"; sourceTree = "<group>"; };
-		2FDCC9A2CA6364C8567EC59EDDCC45D2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		2FDCC9A2CA6364C8567EC59EDDCC45D2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		3C1D92979AB6BFBC115F035954BB5496 /* Pods-NYCLib_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NYCLib_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		4533619E74ABF4670DD14DDE452CFB5E /* NYCHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NYCHelper.m; path = NYCLib/Classes/NYCHelper.m; sourceTree = "<group>"; };
 		4B9A3AEA9B2CC39895AF0C542031BA6D /* Pods-NYCLib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NYCLib_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		53502AF2261D7E720032D621 /* NYCHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NYCHelper.h; path = NYCLib/Classes/NYCHelper.h; sourceTree = "<group>"; };
+		53502AF3261D7E720032D621 /* NYCHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NYCHelper.m; path = NYCLib/Classes/NYCHelper.m; sourceTree = "<group>"; };
 		64AD766F276E2E43B6CAB3F10FCF5AE4 /* Pods-NYCLib_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NYCLib_Tests-Info.plist"; sourceTree = "<group>"; };
 		74CA2AD68C887B32C0DF4151492267D6 /* Pods-NYCLib_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NYCLib_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		872C87CA6CDD140D70EB2AD7C70FCD8C /* NYCLib-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "NYCLib-Info.plist"; sourceTree = "<group>"; };
@@ -53,24 +54,23 @@
 		946FB2ED8261CC77B68A57CBDD1AD9E3 /* Pods-NYCLib_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NYCLib_Tests.modulemap"; sourceTree = "<group>"; };
 		979B8985ABD846E7CDC06F02214B20B1 /* Pods-NYCLib_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NYCLib_Example-umbrella.h"; sourceTree = "<group>"; };
 		98D3DF03BD1C1C8B853C9BD95A9ED421 /* NYCLib.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NYCLib.debug.xcconfig; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9FBC0880DDB77FCE3D4A33B2DA0C1A88 /* Pods-NYCLib_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NYCLib_Example-frameworks.sh"; sourceTree = "<group>"; };
 		A8ADDA89DF2AA41358045CF2EDAF2A22 /* Pods-NYCLib_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NYCLib_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		B27C14499FD5DBB253D0AFDF6E8B0E31 /* Pods-NYCLib_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NYCLib_Tests-dummy.m"; sourceTree = "<group>"; };
-		C33BC56041A9D739409B4179B4E8EE26 /* NYCLib.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = NYCLib.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		C7EAC7440F2D315F1BE5B40F14CEC6EC /* NYCLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = NYCLib.framework; path = NYCLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C33BC56041A9D739409B4179B4E8EE26 /* NYCLib.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = NYCLib.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C7EAC7440F2D315F1BE5B40F14CEC6EC /* NYCLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NYCLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD7002FF19A67B3C38A7A487F6139BBD /* Pods-NYCLib_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NYCLib_Tests-umbrella.h"; sourceTree = "<group>"; };
 		D0BC28CBA3B5E7674B6829CF58C3ECA0 /* Pods-NYCLib_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NYCLib_Example-dummy.m"; sourceTree = "<group>"; };
-		D8126C47C79B1D70A4DA6A384E6D44F5 /* Pods_NYCLib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_NYCLib_Example.framework; path = "Pods-NYCLib_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		DB1202DDB1639C014717C838B182F511 /* Pods_NYCLib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_NYCLib_Tests.framework; path = "Pods-NYCLib_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8126C47C79B1D70A4DA6A384E6D44F5 /* Pods_NYCLib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NYCLib_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB1202DDB1639C014717C838B182F511 /* Pods_NYCLib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NYCLib_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBB260AAA0F029FC8051CF78C5CE23DE /* NYCLib.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NYCLib.release.xcconfig; sourceTree = "<group>"; };
 		DE8662DA59B1038BAF58375DAD788070 /* Pods-NYCLib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NYCLib_Example.release.xcconfig"; sourceTree = "<group>"; };
-		E2E5599588E08DF346E3EC412BA6B99B /* NYCHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NYCHelper.h; path = NYCLib/Classes/NYCHelper.h; sourceTree = "<group>"; };
 		E714EC7BB428CC5212B1927D05FCCA8C /* NYCLib-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NYCLib-dummy.m"; sourceTree = "<group>"; };
 		ED600BBF96B87013882667C55BF640EC /* Pods-NYCLib_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NYCLib_Example-Info.plist"; sourceTree = "<group>"; };
 		F38C23E791E60BBD0C975F83E429658D /* Pods-NYCLib_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NYCLib_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		F3D15573BFFFC6179C30F86F38E4FDB8 /* Pods-NYCLib_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NYCLib_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		F5F2CC150470DA35137274C5CF203642 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		F5F2CC150470DA35137274C5CF203642 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		F5FE3D522EA5E861CED0881F7756A831 /* NYCLib-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NYCLib-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -148,8 +148,8 @@
 		5D0F441C4D51C8E1015762E5C9250311 /* NYCLib */ = {
 			isa = PBXGroup;
 			children = (
-				E2E5599588E08DF346E3EC412BA6B99B /* NYCHelper.h */,
-				4533619E74ABF4670DD14DDE452CFB5E /* NYCHelper.m */,
+				53502AF2261D7E720032D621 /* NYCHelper.h */,
+				53502AF3261D7E720032D621 /* NYCHelper.m */,
 				47658334477662BADFD8AA35F6C56618 /* Pod */,
 				9BD9C549CAE0A9A770E8A160684B1556 /* Support Files */,
 			);
@@ -241,8 +241,8 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				813099EEFDB38F3993E0C0E9C6AA25C8 /* NYCHelper.h in Headers */,
 				31BA5AAA52551A7620B5F43AEA18FA7D /* NYCLib-umbrella.h in Headers */,
+				53502AF4261D7E720032D621 /* NYCHelper.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -387,7 +387,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D5A610F0EA7D3AB14D35725DADC9FEBB /* NYCHelper.m in Sources */,
+				53502AF5261D7E720032D621 /* NYCHelper.m in Sources */,
 				5692FABB9927006BD3922A80E2C41A23 /* NYCLib-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -563,8 +563,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
