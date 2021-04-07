@@ -1,5 +1,5 @@
 PODS:
-  - NYCLib (0.1.0)
+  - NYCLib (0.0.1)
 
 DEPENDENCIES:
   - NYCLib (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  NYCLib: 8dfaf7a7446cae672d94a4fe9f3a2affad56a327
+  NYCLib: 9289f21df6457aa8dfcf7c3388ed0348c8c77173
 
 PODFILE CHECKSUM: d60cc7f27a25068c9ceeda894ec62679a7feaad2
 

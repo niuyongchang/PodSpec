@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "NYCHelper.h"
 
 FOUNDATION_EXPORT double NYCLibVersionNumber;
 FOUNDATION_EXPORT const unsigned char NYCLibVersionString[];

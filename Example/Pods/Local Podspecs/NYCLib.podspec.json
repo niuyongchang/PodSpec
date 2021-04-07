@@ -1,19 +1,19 @@
 {
   "name": "NYCLib",
-  "version": "0.1.0",
+  "version": "0.0.1",
   "summary": "A short description of NYCLib.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/牛永昌/NYCLib",
+  "homepage": "https://github.com/niuyongchang/PodSpec",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "牛永昌": "yongchang.niu@dnurse.cn"
+    "niuyongchang": "callmemrniu@yahoo.com"
   },
   "source": {
-    "git": "https://github.com/牛永昌/NYCLib.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/niuyongchang/PodSepc.git",
+    "tag": "0.0.1"
   },
   "platforms": {
     "ios": "9.0"
