@@ -1,0 +1,6 @@
+framework module NYCLib {
+  umbrella header "NYCLib-umbrella.h"
+
+  export *
+  module * { export * }
+}

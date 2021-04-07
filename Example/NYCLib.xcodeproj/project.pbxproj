@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		53502AD2261D75D80032D621 /* NYCHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 53502AD1261D75D80032D621 /* NYCHelper.m */; };
 		5D291FDE8F1BEB1AD7DFDA75 /* Pods_NYCLib_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F62CA3B789BA8E2B123686A9 /* Pods_NYCLib_Tests.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
@@ -39,8 +40,10 @@
 /* Begin PBXFileReference section */
 		0C9ACB63DD85D30BF595F044 /* Pods-NYCLib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NYCLib_Example.release.xcconfig"; path = "Target Support Files/Pods-NYCLib_Example/Pods-NYCLib_Example.release.xcconfig"; sourceTree = "<group>"; };
 		1BBCFE550A2CF3B6028EEC43 /* Pods-NYCLib_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NYCLib_Tests.debug.xcconfig"; path = "Target Support Files/Pods-NYCLib_Tests/Pods-NYCLib_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		2C81D662374C631C192494B5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		2C81D662374C631C192494B5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		3B803A6B950792ED1D9843DA /* Pods-NYCLib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NYCLib_Tests.release.xcconfig"; path = "Target Support Files/Pods-NYCLib_Tests/Pods-NYCLib_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		53502AD0261D75D80032D621 /* NYCHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NYCHelper.h; sourceTree = "<group>"; };
+		53502AD1261D75D80032D621 /* NYCHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NYCHelper.m; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* NYCLib_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NYCLib_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -60,12 +63,12 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		6CFF8E1830514DB57F14BB45 /* NYCLib.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = NYCLib.podspec; path = ../NYCLib.podspec; sourceTree = "<group>"; };
+		6CFF8E1830514DB57F14BB45 /* NYCLib.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = NYCLib.podspec; path = ../NYCLib.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AD060C7D9AA245CEBCF15373 /* Pods-NYCLib_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NYCLib_Example.debug.xcconfig"; path = "Target Support Files/Pods-NYCLib_Example/Pods-NYCLib_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		CCB0A6952A64CFFCCE2EC8BC /* Pods_NYCLib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NYCLib_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CFF0CDC5B6B7204B6BEA6484 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		CFF0CDC5B6B7204B6BEA6484 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		F62CA3B789BA8E2B123686A9 /* Pods_NYCLib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NYCLib_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -134,6 +137,8 @@
 			children = (
 				6003F59C195388D20070C39A /* NYCAppDelegate.h */,
 				6003F59D195388D20070C39A /* NYCAppDelegate.m */,
+				53502AD0261D75D80032D621 /* NYCHelper.h */,
+				53502AD1261D75D80032D621 /* NYCHelper.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* NYCViewController.h */,
 				6003F5A6195388D20070C39A /* NYCViewController.m */,
@@ -193,7 +198,6 @@
 				1BBCFE550A2CF3B6028EEC43 /* Pods-NYCLib_Tests.debug.xcconfig */,
 				3B803A6B950792ED1D9843DA /* Pods-NYCLib_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +262,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -364,6 +369,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				53502AD2261D75D80032D621 /* NYCHelper.m in Sources */,
 				6003F59E195388D20070C39A /* NYCAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* NYCViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,

@@ -1,0 +1,16 @@
+PODS:
+  - NYCLib (0.1.0)
+
+DEPENDENCIES:
+  - NYCLib (from `../`)
+
+EXTERNAL SOURCES:
+  NYCLib:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  NYCLib: 8dfaf7a7446cae672d94a4fe9f3a2affad56a327
+
+PODFILE CHECKSUM: d60cc7f27a25068c9ceeda894ec62679a7feaad2
+
+COCOAPODS: 1.9.3
